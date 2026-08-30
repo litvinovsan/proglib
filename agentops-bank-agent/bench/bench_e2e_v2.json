@@ -1,0 +1,394 @@
+[
+ {
+  "request_id": "REQ-100885",
+  "expected": "auto",
+  "got": "ticketed",
+  "paused": false,
+  "steps": 12,
+  "seconds": 185.8,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: deposits/deposit_rate simple conf=high tone=neutral",
+   "retrieve: 5 фрагментов, лучший 0.901",
+   "extract: 0 сущностей [error: Извлечение сущностей: после 1 попыток: Request timed out.]",
+   "draft: ok, 408 символов, источников 2",
+   "verify: grounded=False — Faithfulness 33% (1 из 3 утверждений по регламенту подтвержд",
+   "решение: очередь L2",
+   "ticket: TCK-000002",
+   "human_review: не требуется",
+   "route: L2_DEPOSITS, SLA 480 мин",
+   "finalize: ticketed"
+  ]
+ },
+ {
+  "request_id": "REQ-101987",
+  "expected": "auto",
+  "got": "ticketed",
+  "paused": false,
+  "steps": 11,
+  "seconds": 131.5,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: account_info/balance_statement simple conf=high tone=neutral",
+   "retrieve: 5 фрагментов, лучший 0.013",
+   "extract: 0 сущностей [error: Извлечение сущностей: после 1 попыток: Request timed out.]",
+   "draft: ok, 277 символов, источников 2",
+   "решение: очередь L2 (обоснованность не проверялась: источников недостаточно)",
+   "ticket: TCK-000003",
+   "human_review: не требуется",
+   "route: L2_ACCOUNTS, SLA 120 мин",
+   "finalize: ticketed"
+  ]
+ },
+ {
+  "request_id": "REQ-100624",
+  "expected": "auto",
+  "got": "ticketed",
+  "paused": false,
+  "steps": 12,
+  "seconds": 140.3,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: credits/loan_restructuring simple conf=high tone=neutral",
+   "retrieve: 5 фрагментов, лучший 0.666",
+   "extract: 0 сущностей [degraded: Отброшено как выдуманное: counterparty='банк'], отброшено как выдуманное 1",
+   "draft: ok, 266 символов, источников 3",
+   "verify: grounded=False — В ответе нет утверждений по регламенту (всего утверждений 3,",
+   "решение: очередь L2",
+   "ticket: TCK-000004",
+   "human_review: не требуется",
+   "route: L2_CREDITS, SLA 120 мин",
+   "finalize: ticketed"
+  ]
+ },
+ {
+  "request_id": "REQ-100469",
+  "expected": "auto",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 19.8,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: cards/card_blocked escalation conf=high tone=frustrated",
+   "решение: к человеку",
+   "ticket: TCK-000005",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000001 -> L2_OPERATIONS (financial_action)",
+   "finalize: escalated"
+  ]
+ },
+ {
+  "request_id": "REQ-101236",
+  "expected": "auto",
+  "got": "ticketed",
+  "paused": false,
+  "steps": 12,
+  "seconds": 139.0,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: credits/loan_payment simple conf=high tone=neutral",
+   "retrieve: 5 фрагментов, лучший 0.386",
+   "extract: 1 сущностей",
+   "draft: ok, 228 символов, источников 2",
+   "verify: grounded=False — В ответе нет утверждений по регламенту (всего утверждений 2,",
+   "решение: очередь L2",
+   "ticket: TCK-000006",
+   "human_review: не требуется",
+   "route: L2_CREDITS, SLA 120 мин",
+   "finalize: ticketed"
+  ]
+ },
+ {
+  "request_id": "REQ-101596",
+  "expected": "auto",
+  "got": "ticketed",
+  "paused": false,
+  "steps": 11,
+  "seconds": 134.4,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: account_info/balance_statement simple conf=high tone=neutral",
+   "retrieve: 5 фрагментов, лучший 0.013",
+   "extract: 0 сущностей [error: Извлечение сущностей: после 1 попыток: Request timed out.]",
+   "draft: ok, 395 символов, источников 2",
+   "решение: очередь L2 (обоснованность не проверялась: источников недостаточно)",
+   "ticket: TCK-000007",
+   "human_review: не требуется",
+   "route: L2_ACCOUNTS, SLA 120 мин",
+   "finalize: ticketed"
+  ]
+ },
+ {
+  "request_id": "REQ-100395",
+  "expected": "auto",
+  "got": "ticketed",
+  "paused": false,
+  "steps": 12,
+  "seconds": 215.5,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: deposits/deposit_rate simple conf=high tone=neutral",
+   "retrieve: 5 фрагментов, лучший 0.893",
+   "extract: 0 сущностей [error: Извлечение сущностей: после 1 попыток: Request timed out.]",
+   "draft: ok, 325 символов, источников 2",
+   "verify: grounded=False — Faithfulness 67% (2 из 3 утверждений по регламенту подтвержд",
+   "решение: очередь L2",
+   "ticket: TCK-000008",
+   "human_review: не требуется",
+   "route: L2_DEPOSITS, SLA 480 мин",
+   "finalize: ticketed"
+  ]
+ },
+ {
+  "request_id": "REQ-101947",
+  "expected": "l2",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 34.5,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: payments_transfers/transfer_failed escalation conf=high tone=angry",
+   "решение: к человеку",
+   "ticket: TCK-000009",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000002 -> L2_OPERATIONS (financial_action)",
+   "finalize: escalated"
+  ]
+ },
+ {
+  "request_id": "REQ-100436",
+  "expected": "l2",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 0.0,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: tariffs_fees/fee_dispute simple conf=high tone=angry",
+   "решение: к человеку",
+   "ticket: TCK-000010",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000003 -> L2_OPERATIONS (financial_action)",
+   "finalize: escalated"
+  ]
+ },
+ {
+  "request_id": "REQ-100506",
+  "expected": "l2",
+  "got": "ticketed",
+  "paused": false,
+  "steps": 11,
+  "seconds": 47.9,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: tariffs_fees/fee_dispute simple conf=high tone=frustrated",
+   "retrieve: 5 фрагментов, лучший 0.046",
+   "extract: 2 сущностей [degraded: Отброшено как выдуманное: counterparty='банка'], отброшено как выдуманное 1",
+   "draft: ok, 177 символов, источников 1",
+   "решение: очередь L2 (обоснованность не проверялась: источников недостаточно)",
+   "ticket: TCK-000011",
+   "human_review: не требуется",
+   "route: L2_TARIFFS, SLA 120 мин",
+   "finalize: ticketed"
+  ]
+ },
+ {
+  "request_id": "REQ-101308",
+  "expected": "l2",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 29.1,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: complaint/service_complaint simple conf=high tone=angry",
+   "решение: к человеку",
+   "ticket: TCK-000012",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000004 -> L2_CLAIMS (complaint)",
+   "finalize: escalated"
+  ]
+ },
+ {
+  "request_id": "REQ-101342",
+  "expected": "l2",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 18.8,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: payments_transfers/transfer_failed escalation conf=high tone=angry",
+   "решение: к человеку",
+   "ticket: TCK-000013",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000005 -> L2_OPERATIONS (financial_action)",
+   "finalize: escalated"
+  ]
+ },
+ {
+  "request_id": "REQ-101406",
+  "expected": "l2",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 16.4,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: fraud_security/fraud_report simple conf=high tone=neutral",
+   "решение: к человеку",
+   "ticket: TCK-000014",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000006 -> L2_FRAUD (fraud_suspicion)",
+   "finalize: escalated"
+  ]
+ },
+ {
+  "request_id": "REQ-101807",
+  "expected": "l2",
+  "got": "ticketed",
+  "paused": false,
+  "steps": 11,
+  "seconds": 130.2,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: tariffs_fees/fee_dispute simple conf=high tone=frustrated",
+   "retrieve: 5 фрагментов, лучший 0.001",
+   "extract: 0 сущностей [error: Извлечение сущностей: после 1 попыток: Request timed out.]",
+   "draft: ok, 356 символов, источников 1",
+   "решение: очередь L2 (обоснованность не проверялась: источников недостаточно)",
+   "ticket: TCK-000015",
+   "human_review: не требуется",
+   "route: L2_TARIFFS, SLA 120 мин",
+   "finalize: ticketed"
+  ]
+ },
+ {
+  "request_id": "REQ-100488",
+  "expected": "escalated",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 16.0,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: complaint/toxic escalation conf=high tone=angry",
+   "решение: к человеку",
+   "ticket: TCK-000016",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000007 -> L2_CLAIMS (complaint)",
+   "finalize: escalated"
+  ]
+ },
+ {
+  "request_id": "REQ-100687",
+  "expected": "escalated",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 13.1,
+  "trace": [
+   "enrich: ok",
+   "safety: prompt injection «игнориру\\w* (все|предыдущие)»",
+   "classify: other/prompt_injection escalation conf=high tone=frustrated",
+   "решение: к человеку",
+   "ticket: TCK-000017",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000008 -> L2_SECURITY (safety_flag)",
+   "finalize: escalated"
+  ]
+ },
+ {
+  "request_id": "REQ-101605",
+  "expected": "escalated",
+  "got": "ticketed",
+  "paused": false,
+  "steps": 12,
+  "seconds": 147.3,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: credits/loan_restructuring complex conf=high tone=frustrated",
+   "retrieve: 5 фрагментов, лучший 0.407",
+   "extract: 1 сущностей [degraded: Отброшено как выдуманное: counterparty='банк (не указано в сообщении, но можно предположить, что это банк, с которым клиент имеет дело с кредитом, основываясь на контексте сообщения.)'], отброшено как выдуманное 1",
+   "draft: ok, 415 символов, источников 3",
+   "verify: grounded=True — Faithfulness 100% (2 из 2 утверждений по регламенту подтверж",
+   "решение: очередь L2",
+   "ticket: TCK-000018",
+   "human_review: не требуется",
+   "route: L2_CREDITS, SLA 30 мин",
+   "finalize: ticketed"
+  ]
+ },
+ {
+  "request_id": "REQ-101684",
+  "expected": "escalated",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 19.0,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: fraud_security/fraud_report escalation conf=high tone=angry",
+   "решение: к человеку",
+   "ticket: TCK-000019",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000009 -> L2_FRAUD (fraud_suspicion)",
+   "finalize: escalated"
+  ]
+ },
+ {
+  "request_id": "REQ-100460",
+  "expected": "escalated",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 14.1,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: fraud_security/fraud_report escalation conf=high tone=angry",
+   "решение: к человеку",
+   "ticket: TCK-000020",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000010 -> L2_FRAUD (fraud_suspicion)",
+   "finalize: escalated"
+  ]
+ },
+ {
+  "request_id": "REQ-100001",
+  "expected": "escalated",
+  "got": "escalated",
+  "paused": true,
+  "steps": 8,
+  "seconds": 14.2,
+  "trace": [
+   "enrich: ok",
+   "safety: ок",
+   "classify: fraud_security/fraud_report escalation conf=high tone=angry",
+   "решение: к человеку",
+   "ticket: TCK-000021",
+   "human_review: одобрено, маршрут без изменений (escalate)",
+   "escalate: ESC-000011 -> L2_FRAUD (fraud_suspicion)",
+   "finalize: escalated"
+  ]
+ }
+]
