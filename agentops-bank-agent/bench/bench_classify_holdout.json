@@ -1,0 +1,362 @@
+[
+ {
+  "version": "v1",
+  "request_id": "REQ-100001",
+  "category_true": "fraud_security",
+  "category_pred": "fraud_security",
+  "subcategory_true": "fraud_report",
+  "subcategory_pred": "fraud_report",
+  "priority_true": "critical",
+  "priority_pred": "high"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100003",
+  "category_true": "credits",
+  "category_pred": "credits",
+  "subcategory_true": "loan_payment",
+  "subcategory_pred": "loan_payment",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100006",
+  "category_true": "complaint",
+  "category_pred": "complaint",
+  "subcategory_true": "service_complaint",
+  "subcategory_pred": "service_complaint",
+  "priority_true": "high",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100008",
+  "category_true": "cards",
+  "category_pred": "cards",
+  "subcategory_true": "card_delivery",
+  "subcategory_pred": "card_delivery",
+  "priority_true": "low",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100010",
+  "category_true": "payments_transfers",
+  "category_pred": "payments_transfers",
+  "subcategory_true": "transfer_failed",
+  "subcategory_pred": "transfer_failed",
+  "priority_true": "high",
+  "priority_pred": "high"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100011",
+  "category_true": "deposits",
+  "category_pred": "deposits",
+  "subcategory_true": "deposit_rate",
+  "subcategory_pred": "deposit_rate",
+  "priority_true": "low",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100014",
+  "category_true": "payments_transfers",
+  "category_pred": "tariffs_fees",
+  "subcategory_true": "multi_intent",
+  "subcategory_pred": "fee_dispute",
+  "priority_true": "high",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100015",
+  "category_true": "payments_transfers",
+  "category_pred": "payments_transfers",
+  "subcategory_true": "sbp_limit",
+  "subcategory_pred": "sbp_limit",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100016",
+  "category_true": "credits",
+  "category_pred": "credits",
+  "subcategory_true": "loan_restructuring",
+  "subcategory_pred": "loan_restructuring",
+  "priority_true": "high",
+  "priority_pred": "high"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100020",
+  "category_true": "deposits",
+  "category_pred": "deposits",
+  "subcategory_true": "deposit_early",
+  "subcategory_pred": "deposit_early",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100024",
+  "category_true": "account_info",
+  "category_pred": "account_info",
+  "subcategory_true": "balance_statement",
+  "subcategory_pred": "balance_statement",
+  "priority_true": "low",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100033",
+  "category_true": "cards",
+  "category_pred": "cards",
+  "subcategory_true": "card_blocked",
+  "subcategory_pred": "card_blocked",
+  "priority_true": "normal",
+  "priority_pred": "high"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100061",
+  "category_true": "dbo_tech",
+  "category_pred": "dbo_tech",
+  "subcategory_true": "app_error",
+  "subcategory_pred": "app_error",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100120",
+  "category_true": "tariffs_fees",
+  "category_pred": "tariffs_fees",
+  "subcategory_true": "fee_dispute",
+  "subcategory_pred": "fee_dispute",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100169",
+  "category_true": "dbo_tech",
+  "category_pred": "account_info",
+  "subcategory_true": "attachment_context",
+  "subcategory_pred": "balance_statement",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100203",
+  "category_true": "fraud_security",
+  "category_pred": "fraud_security",
+  "subcategory_true": "social_engineering",
+  "subcategory_pred": "fraud_report",
+  "priority_true": "critical",
+  "priority_pred": "high"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100335",
+  "category_true": "other",
+  "category_pred": "cards",
+  "subcategory_true": "multilingual",
+  "subcategory_pred": "card_blocked",
+  "priority_true": "normal",
+  "priority_pred": "high"
+ },
+ {
+  "version": "v1",
+  "request_id": "REQ-100472",
+  "category_true": "other",
+  "category_pred": "tariffs_fees",
+  "subcategory_true": "prompt_injection",
+  "subcategory_pred": "fee_dispute",
+  "priority_true": "high",
+  "priority_pred": "high"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100001",
+  "category_true": "fraud_security",
+  "category_pred": "fraud_security",
+  "subcategory_true": "fraud_report",
+  "subcategory_pred": "fraud_report",
+  "priority_true": "critical",
+  "priority_pred": "critical"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100003",
+  "category_true": "credits",
+  "category_pred": "credits",
+  "subcategory_true": "loan_payment",
+  "subcategory_pred": "loan_payment",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100006",
+  "category_true": "complaint",
+  "category_pred": "complaint",
+  "subcategory_true": "service_complaint",
+  "subcategory_pred": "service_complaint",
+  "priority_true": "high",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100008",
+  "category_true": "cards",
+  "category_pred": "cards",
+  "subcategory_true": "card_delivery",
+  "subcategory_pred": "card_delivery",
+  "priority_true": "low",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100010",
+  "category_true": "payments_transfers",
+  "category_pred": "payments_transfers",
+  "subcategory_true": "transfer_failed",
+  "subcategory_pred": "transfer_failed",
+  "priority_true": "high",
+  "priority_pred": "high"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100011",
+  "category_true": "deposits",
+  "category_pred": "deposits",
+  "subcategory_true": "deposit_rate",
+  "subcategory_pred": "deposit_rate",
+  "priority_true": "low",
+  "priority_pred": "low"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100014",
+  "category_true": "payments_transfers",
+  "category_pred": "tariffs_fees",
+  "subcategory_true": "multi_intent",
+  "subcategory_pred": "fee_dispute",
+  "priority_true": "high",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100015",
+  "category_true": "payments_transfers",
+  "category_pred": "payments_transfers",
+  "subcategory_true": "sbp_limit",
+  "subcategory_pred": "sbp_limit",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100016",
+  "category_true": "credits",
+  "category_pred": "credits",
+  "subcategory_true": "loan_restructuring",
+  "subcategory_pred": "loan_restructuring",
+  "priority_true": "high",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100020",
+  "category_true": "deposits",
+  "category_pred": "deposits",
+  "subcategory_true": "deposit_early",
+  "subcategory_pred": "deposit_early",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100024",
+  "category_true": "account_info",
+  "category_pred": "account_info",
+  "subcategory_true": "balance_statement",
+  "subcategory_pred": "balance_statement",
+  "priority_true": "low",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100033",
+  "category_true": "cards",
+  "category_pred": "cards",
+  "subcategory_true": "card_blocked",
+  "subcategory_pred": "card_blocked",
+  "priority_true": "normal",
+  "priority_pred": "high"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100061",
+  "category_true": "dbo_tech",
+  "category_pred": "dbo_tech",
+  "subcategory_true": "app_error",
+  "subcategory_pred": "app_error",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100120",
+  "category_true": "tariffs_fees",
+  "category_pred": "tariffs_fees",
+  "subcategory_true": "fee_dispute",
+  "subcategory_pred": "fee_dispute",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100169",
+  "category_true": "dbo_tech",
+  "category_pred": "fraud_security",
+  "subcategory_true": "attachment_context",
+  "subcategory_pred": "fraud_report",
+  "priority_true": "normal",
+  "priority_pred": "normal"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100203",
+  "category_true": "fraud_security",
+  "category_pred": "fraud_security",
+  "subcategory_true": "social_engineering",
+  "subcategory_pred": "social_engineering",
+  "priority_true": "critical",
+  "priority_pred": "critical"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100335",
+  "category_true": "other",
+  "category_pred": "cards",
+  "subcategory_true": "multilingual",
+  "subcategory_pred": "card_blocked",
+  "priority_true": "normal",
+  "priority_pred": "high"
+ },
+ {
+  "version": "v2",
+  "request_id": "REQ-100472",
+  "category_true": "other",
+  "category_pred": "other",
+  "subcategory_true": "prompt_injection",
+  "subcategory_pred": "prompt_injection",
+  "priority_true": "high",
+  "priority_pred": "critical"
+ }
+]

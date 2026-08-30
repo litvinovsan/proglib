@@ -1,0 +1,137 @@
+[
+  {
+    "request_id": "REQ-100885",
+    "grounded_7b": false,
+    "faith_7b": 0.33,
+    "grounded_1_5b": false,
+    "faith_1_5b": 0.5,
+    "reason_1_5b": "Faithfulness 50% (1 из 2 утверждений по регламенту подтверждены цитатами; вне счёта 0)",
+    "seconds": 18.3
+  },
+  {
+    "request_id": "REQ-101987",
+    "grounded_7b": false,
+    "faith_7b": 0.0,
+    "grounded_1_5b": true,
+    "faith_1_5b": 1.0,
+    "reason_1_5b": "Faithfulness 100% (10 из 10 утверждений по регламенту подтверждены цитатами; вне счёта 6)",
+    "seconds": 74.7
+  },
+  {
+    "request_id": "REQ-101947",
+    "grounded_7b": true,
+    "faith_7b": 1.0,
+    "grounded_1_5b": false,
+    "faith_1_5b": 0.0,
+    "reason_1_5b": "Проверку выполнить не удалось",
+    "seconds": 1805.5
+  },
+  {
+    "request_id": "REQ-100436",
+    "grounded_7b": false,
+    "faith_7b": 0.0,
+    "grounded_1_5b": false,
+    "faith_1_5b": 0.0,
+    "reason_1_5b": "Числа, которых нет ни в регламенте, ни в обращении: 15.06",
+    "seconds": 0.0
+  },
+  {
+    "request_id": "REQ-100469",
+    "grounded_7b": false,
+    "faith_7b": 0.67,
+    "grounded_1_5b": true,
+    "faith_1_5b": 1.0,
+    "reason_1_5b": "Faithfulness 100% (1 из 1 утверждений по регламенту подтверждены цитатами; вне счёта 3)",
+    "seconds": 26.5
+  },
+  {
+    "request_id": "REQ-101596",
+    "grounded_7b": false,
+    "faith_7b": 0.0,
+    "grounded_1_5b": true,
+    "faith_1_5b": 1.0,
+    "reason_1_5b": "Faithfulness 100% (6 из 6 утверждений по регламенту подтверждены цитатами; вне счёта 2)",
+    "seconds": 663.6
+  },
+  {
+    "request_id": "REQ-100395",
+    "grounded_7b": false,
+    "faith_7b": 0.5,
+    "grounded_1_5b": false,
+    "faith_1_5b": 0.0,
+    "reason_1_5b": "Faithfulness 0% (0 из 1 утверждений по регламенту подтверждены цитатами; вне счёта 1)",
+    "seconds": 13.6
+  },
+  {
+    "request_id": "REQ-101374",
+    "grounded_7b": true,
+    "faith_7b": 1.0,
+    "grounded_1_5b": false,
+    "faith_1_5b": 0.0,
+    "reason_1_5b": "Проверку выполнить не удалось",
+    "seconds": 1805.3
+  },
+  {
+    "request_id": "REQ-100287",
+    "grounded_7b": false,
+    "faith_7b": 0.0,
+    "grounded_1_5b": false,
+    "faith_1_5b": 0.75,
+    "reason_1_5b": "Faithfulness 75% (3 из 4 утверждений по регламенту подтверждены цитатами; вне счёта 10)",
+    "seconds": 73.6
+  },
+  {
+    "request_id": "REQ-101874",
+    "grounded_7b": true,
+    "faith_7b": 1.0,
+    "grounded_1_5b": false,
+    "faith_1_5b": 0.0,
+    "reason_1_5b": "В ответе нет утверждений по регламенту (всего утверждений 2, типы: procedure)",
+    "seconds": 20.4
+  },
+  {
+    "request_id": "REQ-100223",
+    "grounded_7b": true,
+    "faith_7b": 1.0,
+    "grounded_1_5b": true,
+    "faith_1_5b": 1.0,
+    "reason_1_5b": "Faithfulness 100% (4 из 4 утверждений по регламенту подтверждены цитатами; вне счёта 0)",
+    "seconds": 25.3
+  },
+  {
+    "request_id": "REQ-101092",
+    "grounded_7b": false,
+    "faith_7b": 0.0,
+    "grounded_1_5b": true,
+    "faith_1_5b": 1.0,
+    "reason_1_5b": "Faithfulness 100% (2 из 2 утверждений по регламенту подтверждены цитатами; вне счёта 8)",
+    "seconds": 657.4
+  },
+  {
+    "request_id": "REQ-101793",
+    "grounded_7b": true,
+    "faith_7b": 1.0,
+    "grounded_1_5b": false,
+    "faith_1_5b": 0.0,
+    "reason_1_5b": "В ответе нет утверждений по регламенту (всего утверждений 4, типы: courtesy, procedure)",
+    "seconds": 18.0
+  },
+  {
+    "request_id": "REQ-100506",
+    "grounded_7b": false,
+    "faith_7b": 0.5,
+    "grounded_1_5b": false,
+    "faith_1_5b": 0.0,
+    "reason_1_5b": "Проверку выполнить не удалось",
+    "seconds": 1805.5
+  },
+  {
+    "request_id": "REQ-100478",
+    "grounded_7b": false,
+    "faith_7b": 0.0,
+    "grounded_1_5b": true,
+    "faith_1_5b": 1.0,
+    "reason_1_5b": "Faithfulness 100% (1 из 1 утверждений по регламенту подтверждены цитатами; вне счёта 1)",
+    "seconds": 19.1
+  }
+]

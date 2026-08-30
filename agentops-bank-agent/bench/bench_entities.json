@@ -1,0 +1,200 @@
+[
+  {
+    "request_id": "REQ-100885",
+    "status": "ok",
+    "kept": 1,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101987",
+    "status": "error",
+    "kept": 0,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-100488",
+    "status": "ok",
+    "kept": 0,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101947",
+    "status": "ok",
+    "kept": 2,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-100436",
+    "status": "ok",
+    "kept": 3,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-100624",
+    "status": "ok",
+    "kept": 1,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-100469",
+    "status": "ok",
+    "kept": 1,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-100687",
+    "status": "ok",
+    "kept": 0,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101236",
+    "status": "degraded",
+    "kept": 0,
+    "dropped": [
+      "counterparty='банк\", '"
+    ]
+  },
+  {
+    "request_id": "REQ-101596",
+    "status": "error",
+    "kept": 0,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-100395",
+    "status": "degraded",
+    "kept": 1,
+    "dropped": [
+      "counterparty='банк не указан в сообщении, но предполагается, что это обращение к банку или финансовому учреждению для открытия вклада на полгода на указанную сумму. '"
+    ]
+  },
+  {
+    "request_id": "REQ-101374",
+    "status": "ok",
+    "kept": 1,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-100287",
+    "status": "ok",
+    "kept": 2,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101605",
+    "status": "degraded",
+    "kept": 1,
+    "dropped": [
+      "counterparty='банк'"
+    ]
+  },
+  {
+    "request_id": "REQ-100367",
+    "status": "ok",
+    "kept": 1,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101874",
+    "status": "ok",
+    "kept": 0,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-100817",
+    "status": "degraded",
+    "kept": 0,
+    "dropped": [
+      "counterparty='банк\", '"
+    ]
+  },
+  {
+    "request_id": "REQ-100223",
+    "status": "degraded",
+    "kept": 0,
+    "dropped": [
+      "counterparty=\"банк не указан в сообщении клиента, предположительно это клиент банка, интересующийся условиями вклада 'Накопительный'. В сообщении не указаны данные счета или договоров, связанных с обращением клиента, поэтому эти поля пустые: 'account_number', 'contract_id'. Вопросы клиента касаются ставок по вкладу 'Накопительный' на сроки 3, 6 и 12 месяцев, а также возможности пополнения вклада в течение срока вклада. 'current_deposit_rate_3_months': '', 'current_deposit_rate_6_months': '', 'current_deposit_rate_12_months': '', 'is_deposit_top_up_possible': 'да', 'deposit_type': 'Накопительный', 'deposit_terms': ['3 месяца', '6 месяцев', '12 месяцев']\""
+    ]
+  },
+  {
+    "request_id": "REQ-101092",
+    "status": "ok",
+    "kept": 1,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101793",
+    "status": "degraded",
+    "kept": 0,
+    "dropped": [
+      "counterparty=\"банк-партнер или компания-изготовитель карты (если упомянуто в тексте, иначе оставьте пустой строкой '')\""
+    ]
+  },
+  {
+    "request_id": "REQ-100506",
+    "status": "ok",
+    "kept": 2,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-100369",
+    "status": "ok",
+    "kept": 0,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101308",
+    "status": "degraded",
+    "kept": 0,
+    "dropped": [
+      "counterparty='банк'"
+    ]
+  },
+  {
+    "request_id": "REQ-100478",
+    "status": "degraded",
+    "kept": 0,
+    "dropped": [
+      "counterparty='банк не указан в сообщении клиента, но можно предположить, что это банк-владелец приложения для клиентов или мобильного банка, так как клиент пытается войти в приложение банка для управления своими финансами или получения информации о счетах и т.д. или мобильное приложение банка, которое клиент использует для управления своими финансами или получения информации о счетах и т.д. или банкомат, но клиент пытается войти в приложение банка, а не в банкомат, так как в сообщении не упоминается банкомат или терминал自助翻译助手：客户无法登录应用程序，显示“技术错误，请稍后再试”。这种情况已经持续了两天。我该怎么办？'"
+    ]
+  },
+  {
+    "request_id": "REQ-100429",
+    "status": "ok",
+    "kept": 0,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101465",
+    "status": "ok",
+    "kept": 1,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101342",
+    "status": "degraded",
+    "kept": 2,
+    "dropped": [
+      "counterparty='не указано в сообщении клиента'"
+    ]
+  },
+  {
+    "request_id": "REQ-100033",
+    "status": "ok",
+    "kept": 1,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101030",
+    "status": "error",
+    "kept": 0,
+    "dropped": []
+  },
+  {
+    "request_id": "REQ-101746",
+    "status": "error",
+    "kept": 0,
+    "dropped": []
+  }
+]
